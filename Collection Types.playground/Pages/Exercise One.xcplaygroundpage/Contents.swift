@@ -26,13 +26,13 @@ for (index, value) in grades.enumerated() {
 /*:
  4. Determine and print the highest grade.
  */
-var highest = 61.0
+var lowest = 61.0
 for grade in grades {
-    if grade > highest {
-        highest = grade
+    if grade > lowest {
+        lowest = grade
     }
 }
-print("The highest grade is \(highest).")
+print("The highest grade is \(lowest).")
 //: [Next](@next)
 
 
